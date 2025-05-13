@@ -1,3 +1,4 @@
+import version.version
 #Sistema de gestion de inventario para una tienda
 #autor: Manuel Sanchez
 """
@@ -88,14 +89,13 @@ def fn_buscar(lista, nombre):
 #PROGRAMA PRINCIPAL (PP)
 # listas para administrar los productos
 try:
-    version = "v2.0.1"
     lnombre = ["Plumon", "Borrador", "Pizarra"]
     lprecio = [1280.0, 3500.0, 13500.0]
     lstock = [20,8, 10]
 
     salir = False
     while not salir:
-        print(f" *** Menú {version} ***")
+        print(f" *** Menú {version.version.version} ***")
         print("[1] Agrega producto")
         print("[2] Listar productos")
         print("[3] Buscar por nombre")
