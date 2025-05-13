@@ -26,4 +26,5 @@ PATCH: (parche o revisión): Se incrementa, cuando se corrigen errores en el sis
 # version = "1.1.1"
 # version = "2.0.0"
 # version = "1.0.1"
-version = "2.1.1"
+# version = "2.1.1"
+version = "2.1.2"
